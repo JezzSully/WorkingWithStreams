@@ -59,7 +59,7 @@ public class WorkingWithStreams
 	public static boolean isPrime(int x)
 	{
 		boolean isNumPrime = true;
-		for(int i = 3; i < x/2; i = i + 2)
+		for(int i = 2; i < x/2; i++)
 		{
 			if(x % i == 0)
 			{
